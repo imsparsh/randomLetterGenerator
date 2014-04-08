@@ -81,7 +81,7 @@ var randomLetterGenerator = function () {
         }
 
         $private.turn_counter++;
-        if($private.turn_counter > 4) {
+        if($private.turn_counter > 5) {
             $private.turn_counter = 1;
         }
 
